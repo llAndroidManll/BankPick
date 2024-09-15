@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "3607519762",
+    "project_id": "bankpick-7",
+    "storage_bucket": "bankpick-7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3607519762:android:b54a9aea57954934c16ecb",
+        "android_client_info": {
+          "package_name": "sahak.sahakyan.bankpick"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApj_XPDUjSkx2lLtJ15bSKjyg6mfJkqOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
