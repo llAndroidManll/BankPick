@@ -3,7 +3,12 @@ plugins {
     alias(libs.plugins.kotlin.android)
 //    alias(libs.plugins.google.gms.google.services)
 
+    // Google Services
     id("com.google.gms.google-services")
+
+    // Hilt
+    id("kotlin-kapt")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -71,6 +76,16 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    // Google Services
     implementation("com.google.gms:google-services:4.4.2")
     implementation("com.google.firebase:firebase-firestore:25.1.0")
+
+    // Hilt for dependency injection
+    implementation("com.google.dagger:hilt-android:2.51.1")
+    kapt("com.google.dagger:hilt-android-compiler:2.51.1")
+}
+
+// Allow references to generated code
+kapt {
+    correctErrorTypes = true
 }
