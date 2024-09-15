@@ -1,4 +1,4 @@
-package sahak.sahakyan.bankpick.ui.theme
+package sahak.sahakyan.bankpick.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

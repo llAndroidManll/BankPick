@@ -1,4 +1,4 @@
-package sahak.sahakyan.bankpick.ui.theme
+package sahak.sahakyan.bankpick.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

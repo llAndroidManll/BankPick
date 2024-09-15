@@ -1,4 +1,4 @@
-package sahak.sahakyan.bankpick.ui.theme
+package sahak.sahakyan.bankpick.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
